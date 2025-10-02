@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--Each link will be opened in new tab-->
+   <base target="_blank">
+   <link rel="stylesheet" href="styles.css">
+   <script src="script.js" defer></script>
+   <title>Tic Tac Toe</title>
+</head>
+<body>
+   <img src="img/background.png" width="1920" height="1080" alt="background">
+   <svg xmlns="http://www.w3.org/2000/svg" class="gameboard">
+      <path></path>
+   </svg>
+   <svg xmlns="http://www.w3.org/2000/svg" class="triangle1">
+      <path></path>
+   </svg>
+   <svg xmlns="http://www.w3.org/2000/svg" class="triangle2">
+      <path></path>
+   </svg>
+   <svg xmlns="http://www.w3.org/2000/svg" class="triangle3">
+      <path></path>
+   </svg>
+   <svg xmlns="http://www.w3.org/2000/svg" class="triangle4">
+      <path></path>
+   </svg>
+   <svg xmlns="http://www.w3.org/2000/svg" class="tooltyp">
+      <path></path>
+   </svg>
+   <svg xmlns="http://www.w3.org/2000/svg" class="result_container">
+      <path></path>
+      <svg xmlns="http://www.w3.org/2000/svg" class="result">
+         <path></path>
+      </svg>
+   </svg>
+   <svg xmlns="http://www.w3.org/2000/svg" class="win_line">
+      <line></line>
+   </svg>
+   <div class="grid">
+   </div>
+   <form>
+      <legend>Game Settings</legend>
+      <div>
+         <label for="player1">Player 1</label>
+         <p>
+            <input id="player1" name="player1"><button class="decor_x" id="btn_1">X</button>
+         </p>
+      </div>
+      <div>
+         <label for="player2">Player 2</label>
+         <p>
+            <input id="player2" name="player2"><button class="decor_o" id="btn_2">O</button>
+         </p>
+      </div>
+      <div>
+         <button class="play_with_friend">Play with a friend</button>
+      </div>
+      <div>
+         <button class="start">Start Game</button>
+      </div>
+   </form>
+   <div class="tooltyp_text"></div>
+   <div class="result_text"></div>
+</body>
+</html>
